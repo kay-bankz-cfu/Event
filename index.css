@@ -1,0 +1,862 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section 1 */
+
+.apple{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(chair.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
+}
+.apple1{
+    display: flex;
+
+}
+
+.apple1 li{
+    margin-left: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 40px;
+}
+.apple2{
+    text-align: center;
+}
+.apple2 h2{
+    color: rgb(186, 24, 24);
+    font-size: xxx-large;
+}
+.apple2 h5{
+    color: white;
+    font-size: x-large;
+}
+.apple2 button{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+.apple3{
+    color: white;
+    text-align: center;
+    padding: 55px;
+    font-size: xx-large;
+}
+
+.icon-bar{
+    display: none;
+}
+
+/* Section 2 */
+
+#ball{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.ball2{
+    padding-right: 240px;
+}
+.ball3{
+    padding-left: 200px;
+}
+.ball2 h2{
+    color: rgb(186, 24, 24);
+    font-size: xx-large;
+}
+.ball2 h5{
+    color: gray;
+    font-size: small;
+}
+.ball2 span{
+    color: gray;
+    font-size: smaller;
+}
+.ball2 button{
+    border: 2px solid rgb(186, 24, 24);
+    background-color: transparent;
+    padding: 10px;
+}
+
+/* Section 3 */
+
+#cat{
+    background-color: rgb(186, 24, 24);
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    color: white;
+    align-items: center;
+    /* width: 570px; */
+    text-align: center;
+    /* margin-left: 370px; */
+}
+.cat1{
+    border-right: 1px solid black;
+    height: 120px;
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+.cat2{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(186, 24, 24);
+}
+.cat2 span{
+    border-bottom: 3px solid rgb(186, 24, 24);
+    padding: 5px;
+}
+
+/* Section 4 */
+
+#dog{
+    text-align: center;
+}
+#dog h5{
+    color: gray;
+    font-size: large;
+}
+#egg{
+    background-color: rgb(206, 204, 204);
+    /* width: 720px; */
+    height: 475px;
+}
+.egg1{
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(186, 24, 24);
+}
+.egg1 span{
+    border-bottom: 2px solid rgb(186, 24, 24);
+}
+.egg2{
+    padding: 10px;
+    color: gray;
+    font-size: large;
+    text-align: center;
+}
+.egg3{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(161, 160, 160);
+}
+.egg3 i{
+    color: rgb(186, 24, 24);
+}
+
+/* Section 5 */
+
+#frog{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(marketing\ people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 185px;
+}
+.frog1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: larger;
+}
+.frog1 button{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+
+/* Section 6 */
+#goat{
+    text-align: center;
+    padding: 25px;
+}
+#goat span{
+    border-bottom: 2px solid rgb(186, 24, 24);
+}
+#goat h2{
+    color: rgb(186, 24, 24);
+    font-size: xx-large;
+    padding: 5px;
+}
+#goat h5{
+    color: gray;
+    font-size: large;
+}
+.goat1{
+    display: flex;
+    justify-content: space-around;padding-left: 175px;
+    padding-right: 175px;
+}
+.goat1 button{
+    color: gray;
+    border: none;
+    background-color: transparent;
+}
+#goat2{
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: rgb(186, 24, 24);
+    padding: 10px;
+    color: white;
+}
+.goat3{
+    text-align: center;
+    margin: 15px;
+}
+
+/* Section 7 */
+.house1{
+    background-color: rgb(205, 205, 205);
+    height: 450px;
+}
+.house2 span{
+    border-bottom: 2px solid rgb(186, 24, 24);
+}
+.house2 h1{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(186, 24, 24);
+    padding: 10px;
+}
+.house2 h5{
+    text-align: center;
+    padding: 10px;
+    color: gray;
+    font-size: large;
+}
+.house3{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+.house4{
+    text-align: center;
+    color: rgb(109, 109, 109);
+    border: 2px solid rgb(186, 24, 24);
+    padding: 10px;
+    height: 250px;
+    margin: 23px;
+}
+.house4 h2{
+    color: rgb(186, 24, 24);
+}
+.house4 h1{
+    color: black;
+}
+.house4 h6{
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}
+.house4 span{
+    padding: 5px;
+}
+.house4 button{
+    border: 2px solid rgb(186, 24, 24);
+    background-color: transparent;
+    color: rgb(186, 24, 24);
+    padding: 7px;
+}
+
+/* Section 8 */
+
+#ice{
+    text-align: center;
+}
+#ice{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(conference22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.ice1 span{
+    border-bottom: 2px solid rgb(186, 24, 24);
+}
+.ice1 h2{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    padding: 20px;
+}
+.ice1 h5{
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+.ice2 img{
+    border: 2px solid rgb(186, 24, 24);
+}
+
+.ice2{
+    text-align: center;
+    padding: 10px;
+}
+.ice3 h4{
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.ice3 h2{
+    text-align: center;
+    color: rgb(186, 24, 24);
+}
+.ice4{
+    color: rgb(186, 24, 24);
+    font-size: xxx-large;
+}
+.ice4 span{
+    color: white;
+}
+
+/* Section 9 */
+#jug{
+    background-color: rgb(186, 24, 24);
+    height: 270px;
+}
+.jug1 span{
+    border-bottom: 2px solid white;
+}
+.jug1 h2{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.jug1 h5{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.jug2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    /* padding-left: 2px; */
+    /* padding: 20px; */
+}
+.jug3{
+    text-align: center;
+    /* padding: 5px; */
+    /* border: 2px solid white; */
+}
+
+.jug3 img{
+    width: 100%;
+}
+
+/* Section 10 */
+
+#kettle{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(conference\ 0003.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kettle7{
+    border-bottom: 2px solid rgb(186, 24, 24);
+}
+.kettle1{
+    padding: 60px;
+}
+.kettle1 h1{
+    padding: 5px;
+    color: white;
+}
+.kettle1 h5{
+    padding: 5px;
+    color: white;
+}
+.kettle2 input{
+    padding-bottom: 70px;
+}
+.kettle3{
+    background-color: rgb(186, 24, 24);
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.kettle4{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.kettle5 h2{
+    color: white;
+    font-size: xx-large;
+}
+.kettle5 h5{
+    color: white;
+}
+.kettle6{
+    display: flex;
+    color: white;
+}
+.kettle6 i{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(186, 24, 24);
+    padding: 10px;
+}
+
+/* Section 11 */
+
+/* Section 12 */
+
+#lion{
+    background-color: rgb(186, 24, 24);
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+
+
+/* Responsiveness */
+
+@media(max-width:1083px){
+    .ball2{
+        padding-right: 75px;
+    }
+    .ball3{
+        padding-left: 150px;
+    }
+    .ball2 h2{
+        color: rgb(186, 24, 24);
+        font-size: xx-large;
+    }
+    .ball2 h5{
+        color: gray;
+        font-size: small;
+    }
+    .ball2 span{
+        color: gray;
+        font-size: smaller;
+    }
+    .ball2 button{
+        border: 2px solid rgb(186, 24, 24);
+        background-color: transparent;
+        padding: 10px;
+    }
+    
+}
+
+@media(max-width:1023px){
+    .ball2{
+        padding-right: 45px;
+    }
+    .ball3{
+        padding-left: 110px;
+    }
+    .ball2 h2{
+        color: rgb(186, 24, 24);
+        font-size: xx-large;
+    }
+    .ball2 h5{
+        color: gray;
+        font-size: small;
+    }
+    .ball2 span{
+        color: gray;
+        font-size: smaller;
+    }
+    .ball2 button{
+        border: 2px solid rgb(186, 24, 24);
+        background-color: transparent;
+        padding: 10px;
+    }
+    
+}
+
+@media(max-width:965px){
+    .ball2{
+        padding-right: 25px;
+    }
+    .ball3{
+        padding-left: 85px;
+    }
+    .ball2 h2{
+        color: rgb(186, 24, 24);
+        font-size: xx-large;
+    }
+    .ball2 h5{
+        color: gray;
+        font-size: small;
+    }
+    .ball2 span{
+        color: gray;
+        font-size: smaller;
+    }
+    .ball2 button{
+        border: 2px solid rgb(186, 24, 24);
+        background-color: transparent;
+        padding: 10px;
+    }
+    
+}
+
+@media(max-width:960px){
+    .jug2{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        /* padding-left: 2px; */
+        /* padding: 20px; */
+    }
+}
+
+@media(max-width:940px){
+    .jug2{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* padding-left: 2px; */
+        /* padding: 20px; */
+    }
+}
+
+@media(max-width:920px){
+    .jug2{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* padding-left: 2px; */
+        /* padding: 20px; */
+    }
+
+   
+}
+
+@media (max-width:840px){
+    .dropdown-content li{
+        display: none;
+        margin-left: 0;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        
+    }
+
+    .dropdown-content{
+        position: absolute;
+        z-index: 2;
+        padding:10px;
+       
+    }
+
+    .dropdown{
+        /* position: relative; */
+        display: inline-block;
+
+    }
+
+.icon-bar{
+    display: block;
+}
+
+.dropdown:hover .dropdown-content li{
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown:hover .dropdown-content{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+}
+
+@media(max-width:768px){
+    .jug2{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* padding-left: 2px; */
+        /* padding: 20px; */
+    }
+}
+
+@media(max-width:910px){
+    .ball2{
+        padding-right: 5px;
+    }
+    .ball3{
+        padding-left: 45px;
+    }
+    .ball2 h2{
+        color: rgb(186, 24, 24);
+        font-size: xx-large;
+    }
+    .ball2 h5{
+        color: gray;
+        font-size: small;
+    }
+    .ball2 span{
+        color: gray;
+        font-size: smaller;
+    }
+    .ball2 button{
+        border: 2px solid rgb(186, 24, 24);
+        background-color: transparent;
+        padding: 10px;
+    }
+    .ball3{
+        height: 250px;
+        width: 345px;
+    }
+}
+
+@media(max-width:870px){
+    .house3{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px;
+        padding-left: 175px;
+        padding-right: 175px;
+    }
+    .house4{
+        text-align: center;
+        color: rgb(109, 109, 109);
+        border: 2px solid rgb(186, 24, 24);
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .kettle4{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+@media(max-width:735px){
+    #ball{
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+}
+@media(max-width:688px){
+    .house4{
+        text-align: center;
+        color: rgb(109, 109, 109);
+        border: 2px solid rgb(186, 24, 24);
+        padding: 40px;
+        height: 340px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+@media(max-width:635px){
+    .goat1{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+   .goat1 button{
+    margin: 12px 0;
+   }
+   
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:550px){
+    .jug2{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* padding-left: 2px; */
+        /* padding: 20px; */
+    }
+    .house3{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px;
+        padding-left: 175px;
+        padding-right: 175px;
+    }
+    .house4{
+        text-align: center;
+        color: rgb(109, 109, 109);
+        border: 2px solid rgb(186, 24, 24);
+        padding: 20px;
+        margin-top: 10px;
+        width: 165px;
+    }
+}
+
+@media(max-width:490px){
+    .house4{
+        text-align: center;
+        color: rgb(109, 109, 109);
+        border: 2px solid rgb(186, 24, 24);
+        padding: 10px;
+        margin-top: 10px;
+        width: 165px;
+        height: 320px;
+    }
+    .house4 h2{
+        color: rgb(186, 24, 24);
+        font-size: 18px;
+    }
+    .apple2 h2{
+        color: rgb(186, 24, 24);
+        font-size: xx-large;
+    }
+    .apple2 h5{
+        color: white;
+        font-size: large;
+    }
+    .cat2{
+        text-align: center;
+        font-size: large;
+        color: rgb(186, 24, 24);
+    }
+    .ball2 h2{
+        color: rgb(186, 24, 24);
+        font-size: larger;
+    }
+    .egg1{
+        padding: 20px;
+        text-align: center;
+        font-size: larger;
+        color: rgb(186, 24, 24);
+    }
+    
+    #goat h2{
+        color: rgb(186, 24, 24);
+        font-size: larger;
+        padding: 5px;
+    }
+    #dog h5{
+        color: gray;
+        font-size: small;
+    }
+    .egg2{
+        padding: 10px;
+        color: gray;
+        font-size: small;
+        text-align: center;
+    }
+    #goat h5{
+        color: gray;
+        font-size: small;
+    }
+    .house2 h5{
+        text-align: center;
+        padding: 10px;
+        color: gray;
+        font-size: small;
+    }
+    .ice1 h5{
+        text-align: center;
+        color: white;
+        font-size: small;
+        padding: 10px;
+    }
+}
+@media(max-width:470px){
+    .house4{
+        text-align: center;
+        color: rgb(109, 109, 109);
+        border: 2px solid rgb(186, 24, 24);
+        padding: 10px;
+        margin-top: 10px;
+        width: 130px;
+        height: 340px;
+    }
+    #cat{
+        background-color: rgb(186, 24, 24);
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        color: white;
+        align-items: center;
+        /* width: 570px; */
+        text-align: center;
+        /* margin-left: 370px; */
+    }
+    .cat1{
+        border-right: 1px solid black;
+        height: 100px;
+        font-size: large;
+        padding-top: 10px;
+    }
+}
+@media(max-width:430px){
+    .goat1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .goat1 button{
+        margin: 12px 0;
+    }
+
+    .house4{
+        text-align: center;
+        color: rgb(109, 109, 109);
+        border: 2px solid rgb(186, 24, 24);
+        padding: 10px;
+        height: 250px;
+        margin: 23px;
+    }
+    .house1{
+        background-color: rgb(205, 205, 205);
+        height: 100vh;
+        width: 100%;
+    }
+    #ice{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(conference22.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 100%;
+    }
+}
