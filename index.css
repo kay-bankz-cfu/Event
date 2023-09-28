@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 /* Section 1 */
@@ -9,6 +10,7 @@
 .apple{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(chair.jpg);
     height: 450px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
@@ -62,7 +64,7 @@ ul{
 /* Section 2 */
 
 #ball{
-    margin: 10px;
+    /* margin: 10px; */
     display: flex;
     justify-content: space-around;
 }
@@ -122,6 +124,36 @@ ul{
 
 /* Section 4 */
 
+#banana{
+    /* margin: 10px; */
+    display: flex;
+    justify-content: space-around;
+}
+.banana2{
+    padding-right: 240px;
+}
+
+/* .banana3{
+    padding-left: 200px;
+} */
+.banana2 h2{
+    color: rgb(186, 24, 24);
+    font-size: xx-large;
+}
+.banana2 h5{
+    color: gray;
+    font-size: small;
+}
+.banana2 span{
+    color: gray;
+    font-size: smaller;
+}
+.banana2 button{
+    border: 2px solid rgb(186, 24, 24);
+    background-color: transparent;
+    padding: 10px;
+}
+
 #dog{
     text-align: center;
 }
@@ -165,6 +197,7 @@ ul{
 #frog{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(marketing\ people.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 185px;
 }
@@ -200,8 +233,7 @@ ul{
 }
 .goat1{
     display: flex;
-    justify-content: space-around;padding-left: 175px;
-    padding-right: 175px;
+    justify-content: space-around;
 }
 .goat1 button{
     color: gray;
@@ -224,7 +256,7 @@ ul{
 /* Section 7 */
 .house1{
     background-color: rgb(205, 205, 205);
-    height: 450px;
+    /* height: 450px; */
 }
 .house2 span{
     border-bottom: 2px solid rgb(186, 24, 24);
@@ -243,19 +275,17 @@ ul{
 }
 .house3{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
-    padding-left: 175px;
-    padding-right: 175px;
 }
 
 .house4{
     text-align: center;
     color: rgb(109, 109, 109);
     border: 2px solid rgb(186, 24, 24);
-    padding: 10px;
-    height: 250px;
-    margin: 23px;
+    padding: 15px;
+    height: 300px;
+    margin: 40px;
 }
 .house4 h2{
     color: rgb(186, 24, 24);
@@ -274,19 +304,19 @@ ul{
     border: 2px solid rgb(186, 24, 24);
     background-color: transparent;
     color: rgb(186, 24, 24);
+    width: 70%;
     padding: 7px;
 }
 
 /* Section 8 */
 
 #ice{
-    text-align: center;
-}
-#ice{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(conference22.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 600px;
+    text-align: center;
 }
 .ice1 span{
     border-bottom: 2px solid rgb(186, 24, 24);
@@ -368,6 +398,7 @@ ul{
 #kettle{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(conference\ 0003.jpg);
     height: 450px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -434,7 +465,7 @@ ul{
 
 /* Responsiveness */
 
-@media(max-width:1083px){
+@media(max-width:1214px){
     .ball2{
         padding-right: 75px;
     }
@@ -461,13 +492,37 @@ ul{
     
 }
 
-@media(max-width:1023px){
+@media(max-width:1030px){
     .ball2{
         padding-right: 45px;
     }
+
     .ball3{
-        padding-left: 110px;
+        padding-left: 0;
+        width: 40%;
+        height: 60%;
+        /* margin: 10px; */
     }
+    #banana{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .banana2{
+        padding-right: 20px;
+        /* width: 50%; */
+    }
+}.banana3{
+    margin-bottom: 20px;
+    width: 50%;
+    margin: 10px;
+}
+    /* .ball3{
+        padding-left: 110px;
+        width: 430px;
+        height: 200px;
+    } */
     .ball2 h2{
         color: rgb(186, 24, 24);
         font-size: xx-large;
@@ -487,13 +542,57 @@ ul{
     }
     
 }
-
+@media(max-width:1050px){
+    #banana{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .banana2{
+        padding-right: 60px;
+    }
+    .banana3{
+        margin-bottom: 20px;
+        width: 450px;
+        margin: 10px;
+    }
+    .banana2 h2{
+        color: rgb(186, 24, 24);
+        font-size: 27px;
+    }
+    .banana2 h5{
+        color: gray;
+        font-size: small;
+    }
+    .banana2 span{
+        color: gray;
+        font-size: smaller;
+        text-align: justify;
+    }
+    .banana2 button{
+        border: 2px solid rgb(186, 24, 24);
+        background-color: transparent;
+        padding: 10px;
+    }
+}
+@media(max-width:1019){
+    .banana2{
+        padding-right: 60px;
+        
+    }
+    .banana3{
+        /* height: auto; */
+        width: 40%;
+    }
+}
 @media(max-width:965px){
     .ball2{
         padding-right: 25px;
     }
     .ball3{
         padding-left: 85px;
+        height: 320px;
+        width: 45%;
     }
     .ball2 h2{
         color: rgb(186, 24, 24);
@@ -511,6 +610,10 @@ ul{
         border: 2px solid rgb(186, 24, 24);
         background-color: transparent;
         padding: 10px;
+    }
+    .banana3{
+        /* height: auto; */
+        width: 45%;
     }
     
 }
@@ -543,10 +646,17 @@ ul{
         /* padding-left: 2px; */
         /* padding: 20px; */
     }
-
-   
 }
-
+@media(max-width:910px){
+    #cat{
+        margin: 35px;
+    }
+    /* .ball3{
+        padding-left: 85px;
+        height: 820px;
+        width: 45%;
+    } */
+}
 @media (max-width:840px){
     .dropdown-content li{
         display: none;
@@ -645,8 +755,10 @@ nav{
         text-align: center;
         color: rgb(109, 109, 109);
         border: 2px solid rgb(186, 24, 24);
-        padding: 10px;
-        margin-top: 10px;
+        padding: 15px;
+        height: auto;
+        width: 80%;
+        margin: 40px;
     }
     .kettle4{
         display: flex;
@@ -654,6 +766,10 @@ nav{
         flex-wrap: wrap;
         width: 100%;
     }
+}
+
+@media(max-width:768px){
+
 }
 @media(max-width:735px){
     #ball{
@@ -664,14 +780,91 @@ nav{
     }
     
 }
+@media(max-width:720px){
+    #ball{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.ball2{
+    padding-right: 0;
+    margin-top: 50px;
+}
+.ball3{
+    padding-left: 0;
+}
+#banana{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
 @media(max-width:688px){
     .house4{
         text-align: center;
         color: rgb(109, 109, 109);
         border: 2px solid rgb(186, 24, 24);
-        padding: 40px;
-        height: 340px;
-        margin-top: 10px;
+        padding: 15px;
+        height: auto;
+        width: 80%;
+        margin: 40px;
+    }
+}
+
+@media(max-width:663){
+    #banana{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .banana2{
+        padding-right: 20px;
+    }
+    .banana3{
+        margin-bottom: 20px;
+    }
+    
+    .banana2 h2{
+        color: rgb(186, 24, 24);
+        font-size: 27px;
+    }
+    .banana2 h5{
+        color: gray;
+        font-size: small;
+    }
+    .banana2 span{
+        color: gray;
+        font-size: smaller;
+        text-align: justify;
+    }
+    .banana2 button{
+        border: 2px solid rgb(186, 24, 24);
+        background-color: transparent;
+        padding: 10px;
+    }
+
+    #frog{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(marketing\ people.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+       
+      
+    }
+    .frog1{
+        text-align: center;
+        color: white;
+        padding: 50px;
+        font-size: larger;
+    }
+    .frog1 button{
+        border: 1px solid white;
+        background-color: transparent;
+        padding: 10px;
+        color: white;
     }
 }
 
@@ -703,6 +896,10 @@ nav{
 
 
 @media(max-width:550px){
+    #jug{
+        background-color: rgb(186, 24, 24);
+        height: 100%;
+    }
     .jug2{
         display: flex;
         justify-content: space-between;
@@ -723,9 +920,10 @@ nav{
         text-align: center;
         color: rgb(109, 109, 109);
         border: 2px solid rgb(186, 24, 24);
-        padding: 20px;
-        margin-top: 10px;
-        width: 165px;
+        padding: 15px;
+        height: auto;
+        width: 80%;
+        margin: 40px;
     }
 }
 
@@ -734,10 +932,10 @@ nav{
         text-align: center;
         color: rgb(109, 109, 109);
         border: 2px solid rgb(186, 24, 24);
-        padding: 10px;
-        margin-top: 10px;
-        width: 165px;
-        height: 320px;
+        padding: 15px;
+        height: auto;
+        width: 100%;
+        margin: 40px;
     }
     .house4 h2{
         color: rgb(186, 24, 24);
@@ -804,10 +1002,10 @@ nav{
         text-align: center;
         color: rgb(109, 109, 109);
         border: 2px solid rgb(186, 24, 24);
-        padding: 10px;
-        margin-top: 10px;
-        width: 130px;
-        height: 340px;
+        padding: 15px;
+        height: auto;
+        width: 100%;
+        margin: 40px;
     }
     #cat{
         background-color: rgb(186, 24, 24);
@@ -843,9 +1041,10 @@ nav{
         text-align: center;
         color: rgb(109, 109, 109);
         border: 2px solid rgb(186, 24, 24);
-        padding: 10px;
-        height: 250px;
-        margin: 23px;
+        padding: 15px;
+        height: auto;
+        width: 100%;
+        margin: 40px;
     }
     .house1{
         background-color: rgb(205, 205, 205);
@@ -859,4 +1058,350 @@ nav{
         background-size: cover;
         height: 100%;
     }
+} 
+@media(max-width:417px){
+    #ball{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .ball2{
+        padding-right: 0;
+        margin-top: 50px;
+    }
+    .ball3{
+        padding-left: 0;
+    }
+    #cat{
+        background-color: rgb(186, 24, 24);
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+        flex-wrap: wrap;
+        color: white;
+        align-items: center;
+        text-align: center;
+    }
+    .cat1{
+        border-right: 1px solid black;
+        height: 120px;
+        font-size: x-large;
+        width: 50%;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .cat2{
+        text-align: center;
+        font-size: xx-large;
+        color: rgb(186, 24, 24);
+    }
+    .cat2 span{
+        border-bottom: 3px solid rgb(186, 24, 24);
+        padding: 5px;
+    }
+    #frog{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(marketing\ people.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+       
+      
+    }
+    .frog1{
+        text-align: center;
+        color: white;
+        padding: 50px;
+        font-size: larger;
+    }
+    .frog1 button{
+        border: 1px solid white;
+        background-color: transparent;
+        padding: 10px;
+        color: white;
+    }
+    
+    #banana{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .banana2{
+        padding-right: 1px;
+    }
+    .banana3{
+        margin-bottom: 20px;
+    }
+    .banana2 h2{
+        color: rgb(186, 24, 24);
+        font-size: 27px;
+    }
+    .banana2 h5{
+        color: gray;
+        font-size: small;
+    }
+    .banana2 span{
+        color: gray;
+        font-size: smaller;
+        text-align: justify;
+    }
+    .banana2 button{
+        border: 2px solid rgb(186, 24, 24);
+        background-color: transparent;
+        padding: 10px;
+    }
+    #egg{
+        background-color: rgb(206, 204, 204);
+        /* width: 720px; */
+        height: 100%;
+    }
+    .house1{
+        background-color: rgb(205, 205, 205);
+        height: 100%;
+    }
+    .house3{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .house4{
+        text-align: center;
+        color: rgb(109, 109, 109);
+        border: 2px solid rgb(186, 24, 24);
+        padding: 15px;
+        height: 300px;
+        margin: 40px;
+    }
+    #ice{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(conference22.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        text-align: center;
+    }
+    .ice1 span{
+        border-bottom: 2px solid rgb(186, 24, 24);
+    }
+    .ice1 h2{
+        text-align: center;
+        font-size: xx-large;
+        color: white;
+        padding: 20px;
+    }
+    .ice1 h5{
+        text-align: center;
+        color: white;
+        font-size: large;
+        padding: 10px;
+    }
+    .ice2 img{
+        border: 2px solid rgb(186, 24, 24);
+        width: 50%;
+    }
+    
+    .ice2{
+        text-align: center;
+        padding: 10px;
+    }
+    .ice3 h4{
+        text-align: center;
+        color: white;
+        padding: 25px;
+    }
+    .ice3 h2{
+        text-align: center;
+        color: rgb(186, 24, 24);
+    }
+    .ice4{
+        color: rgb(186, 24, 24);
+        font-size: xxx-large;
+    }
+    .ice4 span{
+        color: white;
+    }
+    #jug{
+        background-color: rgb(186, 24, 24);
+        height: 100%;
+    }
+}
+@media(max-width:400px){
+    
+#ball{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.ball2{
+    padding-right: 0;
+    margin-top: 50px;
+}
+.ball3{
+    padding-left: 0;
+}
+#cat{
+    background-color: rgb(186, 24, 24);
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.cat1{
+    border-right: 1px solid black;
+    height: 120px;
+    font-size: x-large;
+    width: 50%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.cat2{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(186, 24, 24);
+}
+.cat2 span{
+    border-bottom: 3px solid rgb(186, 24, 24);
+    padding: 5px;
+}
+#frog{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(marketing\ people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+   
+  
+}
+.frog1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: larger;
+}
+.frog1 button{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+
+#banana{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.banana2{
+    padding-right: 1px;
+
+}.banana3{
+    margin-bottom: 20px;
+}
+.banana2 h2{
+    color: rgb(186, 24, 24);
+    font-size: 27px;
+}
+.banana2 h5{
+    color: gray;
+    font-size: small;
+}
+.banana2 span{
+    color: gray;
+    font-size: smaller;
+    text-align: justify;
+}
+.banana2 button{
+    border: 2px solid rgb(186, 24, 24);
+    background-color: transparent;
+    padding: 10px;
+}
+#egg{
+    background-color: rgb(206, 204, 204);
+    /* width: 720px; */
+    height: 100%;
+}
+.house1{
+    background-color: rgb(205, 205, 205);
+    height: 100%;
+}
+.house3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+.house4{
+    text-align: center;
+    color: rgb(109, 109, 109);
+    border: 2px solid rgb(186, 24, 24);
+    padding: 15px;
+    height: 300px;
+    margin: 40px;
+}
+#ice{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(conference22.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+.ice1 span{
+    border-bottom: 2px solid rgb(186, 24, 24);
+}
+.ice1 h2{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    padding: 20px;
+}
+.ice1 h5{
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+.ice2 img{
+    border: 2px solid rgb(186, 24, 24);
+    width: 50%;
+}
+
+.ice2{
+    text-align: center;
+    padding: 10px;
+}
+.ice3 h4{
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.ice3 h2{
+    text-align: center;
+    color: rgb(186, 24, 24);
+}
+.ice4{
+    color: rgb(186, 24, 24);
+    font-size: xxx-large;
+}
+.ice4 span{
+    color: white;
+}
+#jug{
+    background-color: rgb(186, 24, 24);
+    height: 100%;
+}
+
 }
